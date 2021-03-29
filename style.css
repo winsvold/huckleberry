@@ -7,6 +7,49 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+header {
+  padding: 3rem 0;
+  border-bottom: .3rem gray solid;
+}
+
+header p {
+  max-width: 15rem;
+}
+
+strong {
+  color: deeppink;
+}
+
+.intro-chunk {
+  padding: 1rem;
+}
+
+.max-width-wrapper {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: darkgray;
+  padding: 3rem 0;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-bottom: gray .3rem solid;
+}
+
+.indented-heading {
+  background-color: yellowgreen;
+  border-bottom: .3rem green solid;
+  padding: .7rem 1.5rem;
+  max-width: fit-content;
+  margin-top: -.5rem;
+  margin-left: -1.5rem;
+}
